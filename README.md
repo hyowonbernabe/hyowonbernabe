@@ -1,6 +1,5 @@
 <!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
 <!-- ║  HYOWON BERNABE - GitHub Profile README                            ║ -->
-<!-- ║  Place this file as README.md in the hyowonbernabe/hyowonbernabe repo  ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
 <!-- HEADER BANNER -->
@@ -80,23 +79,16 @@
 
 ---
 
-<!-- GITHUB STATS -->
-<!-- NOTE: If stats cards fail to load, the public Vercel instances may be rate-limited. -->
-<!-- You can deploy your own: https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own -->
-<h2 align="center">METRICS.</h2>
+<!-- CONTRIBUTION METRICS -->
+<h2 align="center">CONTRIBUTIONS.</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hyowonbernabe&show_icons=true&hide_border=true&bg_color=0d1117&title_color=ff0f0f&icon_color=ff0f0f&text_color=c9d1d9&ring_color=ff0f0f&cache_seconds=86400" width="49%" />
-  <img src="https://streak-stats.demolab.com/?user=hyowonbernabe&hide_border=true&background=0d1117&ring=ff0f0f&fire=ff0f0f&currStreakLabel=ff0f0f&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=666666" width="49%" />
+  <img src="https://streak-stats.demolab.com/?user=hyowonbernabe&hide_border=true&background=0d1117&ring=ff0f0f&fire=ff0f0f&currStreakLabel=ff0f0f&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=666666" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hyowonbernabe&layout=compact&hide_border=true&bg_color=0d1117&title_color=ff0f0f&text_color=c9d1d9&langs_count=10&cache_seconds=86400" width="49%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hyowonbernabe&bg_color=0d1117&color=ff0f0f&line=ff0f0f&point=ffffff&area_color=ff0f0f&area=true&hide_border=true&custom_title=CONTRIBUTION%20ACTIVITY" width="100%" />
 </p>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=hyowonbernabe&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=4" />
-</div>
 
 ---
 
@@ -366,13 +358,6 @@
 </div>
 
 ---
-
-<!-- ACTIVITY GRAPH -->
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hyowonbernabe&bg_color=0d1117&color=ff0f0f&line=ff0f0f&point=ffffff&area_color=ff0f0f&area=true&hide_border=true&custom_title=CONTRIBUTION%20GRAPH" width="100%" />
-</div>
-
-<br>
 
 <div align="center">
   <sub>Designed & Developed by <strong>Hyowon Bernabe</strong></sub>
