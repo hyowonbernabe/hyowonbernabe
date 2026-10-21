@@ -7,21 +7,20 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
-  <img alt="Hyowon Bernabe, AI Engineer and Full Stack Developer" src="assets/header-dark.svg" width="100%" />
+  <img alt="Hyowon Bernabe, AI Engineer and Full Stack Developer" src="assets/header-dark.svg" width="600" />
 </picture>
 
-AI Engineer at **Multiply OS**. Co-founder of **[ZuraLog](https://www.zuralog.com)**, an AI health platform that unifies 50+ fitness apps, and **[FLH Media](https://flhmedia.com)**, a studio building web and mobile products.
+AI Engineer at **Multiply OS**. Co-founder and CTO of **[ZuraLog](https://www.zuralog.com)**, an AI health platform that unifies 50+ fitness apps, and **[FLH Media](https://flhmedia.com)**, a studio building web and mobile products.
 
 [hyowonbernabe.me](https://hyowonbernabe.me) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/hyowon-bernabe) &nbsp;·&nbsp; [Email](mailto:contact@hyowonbernabe.me)
 
 ### Selected work
 
-- **[Messenger-Z](https://github.com/hyowonbernabe/Messenger-Z)** <sub>Kotlin</sub> · Non-root Android privacy mod for Messenger. Featured on XDA.
-- **[Globit AI](https://globit-transient.vercel.app/)** <sub>RAG</sub> · AI chatbot and booking platform for a live rental business. Handles ~70% of guest inquiries.
-- **[TOS Risk](https://github.com/hyowonbernabe/tos-risk-summarizer)** <sub>Llama 3</sub> · Fine-tuned model that flags risky clauses in Terms of Service.
-- **[TAGriculture](https://www.linkedin.com/feed/update/urn:li:activity:7378736743283367936/)** <sub>Kotlin</sub> · RFID livestock tracking app. 2nd place, PCCI 2025.
-- **[Kuroko](https://github.com/hyowonbernabe/Kuroko)** <sub>C#</sub> · Desktop AI assistant with local Whisper speech-to-text and SQLite vector RAG.
-- **[i-Tril](https://i-tril.vercel.app/)** <sub>Next.js</sub> · Lab reservation system with QR check-in for Saint Louis University.
+- **[Messenger-Z](https://github.com/hyowonbernabe/Messenger-Z)** · Non-root Android privacy mod for Messenger. Featured on XDA. <sub>Kotlin</sub>
+- **[Globit AI](https://globit-transient.vercel.app/)** · AI chatbot and booking platform for a live rental business. Handles ~70% of guest inquiries and cut booking errors by ~60%. <sub>RAG</sub>
+- **[TOS Risk](https://github.com/hyowonbernabe/tos-risk-summarizer)** · Fine-tuned model that flags risky clauses in Terms of Service. <sub>Llama 3</sub>
+- **[TAGriculture](https://www.linkedin.com/feed/update/urn:li:activity:7378736743283367936/)** · RFID livestock tracking app. 2nd place, PCCI 2025. <sub>Kotlin</sub>
+- **[i-Tril](https://i-tril.vercel.app/)** · Lab reservation system with QR check-in for Saint Louis University. <sub>Next.js</sub>
 
 ### Stack
 
@@ -30,8 +29,6 @@ AI Engineer at **Multiply OS**. Co-founder of **[ZuraLog](https://www.zuralog.co
   <img alt="Python, TypeScript, Rust, Kotlin, C#, React, Next.js, Tailwind, PostgreSQL, Docker" src="https://skillicons.dev/icons?i=python,ts,rust,kotlin,cs,react,nextjs,tailwind,postgres,docker&theme=dark&perline=10" />
 </picture>
 
-<sub>AI: Hugging Face · Unsloth / LoRA fine-tuning · Whisper · RAG</sub>
+<sub>AI: Hugging Face · Unsloth / LoRA · Whisper · RAG</sub>
 
-<br />
-
-<sub>BS Computer Science, Saint Louis University · Harvard CS50 AI · Databricks Generative AI · Hugging Face AI Agents</sub>
+<sub>BS Computer Science, Saint Louis University · Certified by Harvard (CS50 AI), Databricks and Hugging Face</sub>
