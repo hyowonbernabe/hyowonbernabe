@@ -11,7 +11,7 @@ from fontTools.ttLib import TTFont
 from fontTools.varLib import instancer
 from fontTools import subset
 
-VERSION = "v1"
+VERSION = "v2"
 HERE = Path(__file__).parent
 OUT = HERE / "cards"
 W = 900
@@ -76,8 +76,8 @@ def _dump(font):
 
 
 class Card:
-    def __init__(self, h, seed=1, w=W):
-        self.w, self.h, self.parts, self.used, self.seed = w, h, [], {}, seed
+    def __init__(self, h, seed=1, w=W, gap=0):  # gap: transparent space right of the card, for side-by-side cards
+        self.w, self.h, self.gap, self.parts, self.used, self.seed = w, h, gap, [], {}, seed
 
     def text(self, x, y, s, fam, size, fill=BONE, ls=0.0, anchor="start", extra=""):
         self.used.setdefault(fam, set()).update(s)
@@ -110,7 +110,7 @@ class Card:
             "@keyframes spin{to{transform:rotate(360deg)}}"
             ".scan{animation:scan 7s linear infinite}@keyframes scan{from{transform:translateY(-20px)}to{transform:translateY(" + str(self.h + 20) + "px)}}")
         return (
-            f'<svg xmlns="http://www.w3.org/2000/svg" width="{self.w}" height="{self.h}" viewBox="0 0 {self.w} {self.h}" role="img" aria-label="{escape(label)}">'
+            f'<svg xmlns="http://www.w3.org/2000/svg" width="{self.w + self.gap}" height="{self.h}" viewBox="0 0 {self.w + self.gap} {self.h}" role="img" aria-label="{escape(label)}">'
             f'<style>{css}</style>'
             f'<defs><pattern id="g" width="45" height="45" patternUnits="userSpaceOnUse"><path d="M45 0H0V45" fill="none" stroke="{BONE}" stroke-opacity=".05"/></pattern>'
             f'<radialGradient id="glow"><stop offset="0" stop-color="{RED}" stop-opacity=".35"/><stop offset="1" stop-color="{RED}" stop-opacity="0"/></radialGradient>'
@@ -198,8 +198,8 @@ def contact():
     return c.svg("Let's build. contact@hyowonbernabe.me")
 
 
-def button(label):
-    c = Card(76, seed=len(label) * 5, w=440)
+def button(label, gap=0):
+    c = Card(76, seed=len(label) * 5, w=440, gap=gap)
     c.text(40, 46, label, "M", 18, BONE, 0.3)
     c.arrow(c.w - 64, 28, 20, RED)
     return c.svg(label)
@@ -221,7 +221,7 @@ if __name__ == "__main__":
         old.unlink()
     cards = {"hero": hero(), "work": header("SELECTED WORK", f"{len(PROJECTS):02d}"),
              "arsenal": arsenal(), "contact": contact(),
-             "website": button("WEBSITE"), "linkedin": button("LINKEDIN")}
+             "website": button("WEBSITE", gap=12), "linkedin": button("LINKEDIN")}
     for n, p in enumerate(PROJECTS, 1):
         cards[f"p{n}"] = project(n, *p)
     for name, svg in cards.items():
