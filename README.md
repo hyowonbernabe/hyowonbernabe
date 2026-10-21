@@ -26,7 +26,7 @@ AI Engineer at **Multiply OS**. Co-founder of **[ZuraLog](https://www.zuralog.co
 ### Stack
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,ts,rust,kotlin,cs,react,nextjs,tailwind,postgres,docker&theme=light&perline=10" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python%2Cts%2Crust%2Ckotlin%2Ccs%2Creact%2Cnextjs%2Ctailwind%2Cpostgres%2Cdocker&theme=light&perline=10" />
   <img alt="Python, TypeScript, Rust, Kotlin, C#, React, Next.js, Tailwind, PostgreSQL, Docker" src="https://skillicons.dev/icons?i=python,ts,rust,kotlin,cs,react,nextjs,tailwind,postgres,docker&theme=dark&perline=10" />
 </picture>
 
