@@ -5,9 +5,9 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
-  <img alt="Hyowon Bernabe, AI Engineer and Full Stack Developer" src="assets/header-dark.svg" width="600" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg" />
+  <img alt="Hyowon Bernabe, AI Engineer and Full Stack Developer" src="assets/hero-dark.svg" width="600" />
 </picture>
 
 AI Engineer at **Multiply OS**. Co-founder and CTO of **[ZuraLog](https://www.zuralog.com)**, an AI health platform that unifies 50+ fitness apps, and **[FLH Media](https://flhmedia.com)**, a studio building web and mobile products.
