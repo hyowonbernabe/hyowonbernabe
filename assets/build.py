@@ -11,7 +11,7 @@ from fontTools.ttLib import TTFont
 from fontTools.varLib import instancer
 from fontTools import subset
 
-VERSION = "v5"
+VERSION = "v6"
 HERE = Path(__file__).parent
 OUT = HERE / "cards"
 W = 900
@@ -149,7 +149,7 @@ def ammo(card, x, y, loaded, total):
         elif n < loaded:
             card.parts.append(f'<path d="{path}" fill="{RED}" opacity=".7" filter="url(#bloom)"/><path d="{path}" fill="{RED}"/>')
         else:
-            card.parts.append(f'<path d="{path}" fill="none" stroke="{card.fg}" stroke-opacity=".5" stroke-width="2"/>')
+            card.parts.append(f'<path d="{path}" fill="{card.fg}" fill-opacity=".14"/>')
 
 
 def hero():
@@ -182,7 +182,7 @@ def project(i, total, name, tech, desc):
     lines = wrap(desc, "B", 30, W - 140)
     last = top + 48 + 40 * (len(lines) - 1)
     c = Card(last + 84, seed=i, hud=lead, stars=18000)
-    c.ghost(f"{i:02d}", W - 24, c.h + 30, 200, "end")
+    c.ghost(f"{i:02d}", W - 24, c.h + 55, 180, "end")
     c.text(48, top - 10, f"{i:02d}", "M", 22, RED, 0.1)
     c.text(96, top, name.upper(), "D", 64 if lead else 52, BONE, -0.04)
     tw = width(tech.upper(), "M", 20, 0.16) + 32
@@ -206,8 +206,8 @@ def arsenal():
         lines = wrap(val, "B", 29, W - 136, " · ")
         body.append((y, label, lines))
         y += 44 + 40 * len(lines) + 26
-    c = Card(y + 10, seed=99, bg=BONE, stars=0)
-    c.ghost("ARSENAL", W + 20, y + 40, 200, "end")
+    c = Card(y + 40, seed=99, bg=BONE, stars=0)
+    c.ghost("ARSENAL", W + 20, y + 110, 200, "end")
     c.chip(48, 82, "ARSENAL", 22)
     for n, (y0, label, lines) in enumerate(body):
         lw = width(label, "M", 22, 0.16)
