@@ -22,7 +22,7 @@ AI Engineer at **Multiply OS** · Co-Founder & CTO at **[ZuraLog](https://www.zu
 
 ### Selected work
 
-| | |
+| Project | What it does |
 |:--|:--|
 | **[Messenger-Z](https://github.com/hyowonbernabe/Messenger-Z)** `Kotlin` | Non-root Android privacy mod for Messenger. Featured on XDA. |
 | **[Kuroko](https://github.com/hyowonbernabe/Kuroko)** `C#` | Stealth AI assistant with local Whisper and vector RAG. |
