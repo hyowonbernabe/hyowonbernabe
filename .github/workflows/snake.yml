@@ -16,11 +16,10 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/grid-dark.svg?color_snake=#ff0f0f&color_dots=#161b22,#4a0a0a,#8a0c0c,#c70e0e,#ff0f0f
-            dist/grid-light.svg?color_snake=#ff0f0f&color_dots=#ebedf0,#ffb3b3,#ff5c5c,#ff0f0f,#a30000
+            dist/grid.svg?color_snake=#ff0f0f&color_dots=#161616,#4a0000,#8a0c0c,#c70e0e,#ff0f0f
 
-      # drop the "eaten" progress bar under the grid and trim the empty space it leaves
-      - run: sed -i -E 's#<rect class="u [^>]*/>##g; s#viewBox="(-?[0-9.]+) -32 ([0-9.]+) 192"#viewBox="\1 -16 \2 134"#; s#height="192"#height="134"#' dist/*.svg
+      # drop the "eaten" progress bar, trim the space it leaves, and put the grid on the site's ink background
+      - run: sed -i -E 's#<rect class="u [^>]*/>##g; s#viewBox="(-?[0-9.]+) -32 ([0-9.]+) 192"#viewBox="\1 -16 \2 134"#; s#height="192"#height="134"#; s#</desc>#</desc><rect x="-16" y="-16" width="100%" height="100%" rx="14" fill="\#050505"/>#' dist/*.svg
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:

@@ -1,36 +1,13 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hyowonbernabe/hyowonbernabe/output/grid-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hyowonbernabe/hyowonbernabe/output/grid-light.svg" />
-  <img alt="Hyowon's contribution grid" src="https://raw.githubusercontent.com/hyowonbernabe/hyowonbernabe/output/grid-dark.svg" width="100%" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg" />
-  <img alt="Hyowon Bernabe, AI Engineer and Full Stack Developer" src="assets/hero-dark.svg" width="600" />
-</picture>
-
-AI Engineer at **Multiply OS**. Co-founder and CTO of **[ZuraLog](https://www.zuralog.com)**, an AI health platform that unifies 50+ fitness apps, and **[FLH Media](https://flhmedia.com)**, a studio building web and mobile products.
-
-[hyowonbernabe.me](https://hyowonbernabe.me) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/hyowon-bernabe) &nbsp;·&nbsp; [Email](mailto:contact@hyowonbernabe.me)
-
-### Selected work
-
-- **[Messenger-Z](https://github.com/hyowonbernabe/Messenger-Z)** · Non-root Android privacy mod for Messenger. Featured on XDA. <sub>Kotlin</sub>
-- **[Globit AI](https://globit-transient.vercel.app/)** · AI chatbot and booking platform for a live rental business. Handles ~70% of guest inquiries. <sub>RAG</sub>
-- **[TOS Risk](https://github.com/hyowonbernabe/tos-risk-summarizer)** · Fine-tuned model that flags risky clauses in Terms of Service. <sub>Llama 3</sub>
-- **[TAGriculture](https://www.linkedin.com/feed/update/urn:li:activity:7378736743283367936/)** · RFID livestock tracking app. 2nd place, PCCI 2025. <sub>Kotlin</sub>
-- **[ShadowPrompt](https://github.com/hyowonbernabe/ShadowPrompt)** · Hotkey-driven AI exam assistant for Windows. One executable, no taskbar entry. <sub>Rust</sub>
-- **[Kuroko](https://github.com/hyowonbernabe/Kuroko)** · AI assistant invisible to screen share, with local Whisper and SQLite vector RAG. <sub>C#</sub>
-- **[i-Tril](https://i-tril.vercel.app/)** · Lab reservation system with QR check-in for Saint Louis University. <sub>Next.js</sub>
-
-### Stack
-
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python%2Cts%2Crust%2Ckotlin%2Ccs%2Creact%2Cnextjs%2Ctailwind%2Cpostgres%2Cdocker&theme=light&perline=10" />
-  <img alt="Python, TypeScript, Rust, Kotlin, C#, React, Next.js, Tailwind, PostgreSQL, Docker" src="https://skillicons.dev/icons?i=python,ts,rust,kotlin,cs,react,nextjs,tailwind,postgres,docker&theme=dark&perline=10" />
-</picture>
-
-<sub>AI: Hugging Face · Unsloth / LoRA · Whisper · RAG</sub>
-
-<sub>BS Computer Science, Saint Louis University · Harvard CS50 AI · Databricks GenAI · Hugging Face Agents</sub>
+<a href="https://github.com/hyowonbernabe"><img src="https://raw.githubusercontent.com/hyowonbernabe/hyowonbernabe/output/grid.svg" width="100%" alt="Hyowon's contribution grid" /></a>
+<a href="https://hyowonbernabe.me"><img src="assets/cards/hero-v1.svg" width="100%" alt="Hyowon Bernabe. Full stack and AI engineer. AI Engineer at Multiply OS, CTO at ZuraLog and FLH Media. Baguio City, Philippines." /></a>
+<a href="https://github.com/hyowonbernabe?tab=repositories"><img src="assets/cards/work-v1.svg" width="100%" alt="Selected work" /></a>
+<a href="https://github.com/hyowonbernabe/Messenger-Z"><img src="assets/cards/p1-v1.svg" width="100%" alt="Messenger-Z (Kotlin): Non-root Android privacy mod for Messenger. Featured on XDA." /></a>
+<a href="https://globit-transient.vercel.app/"><img src="assets/cards/p2-v1.svg" width="100%" alt="Globit AI (RAG): AI chatbot and booking platform for a live rental business. Handles ~70% of guest inquiries." /></a>
+<a href="https://github.com/hyowonbernabe/tos-risk-summarizer"><img src="assets/cards/p3-v1.svg" width="100%" alt="TOS Risk (Llama 3): Fine-tuned model that flags risky clauses in Terms of Service." /></a>
+<a href="https://www.linkedin.com/feed/update/urn:li:activity:7378736743283367936/"><img src="assets/cards/p4-v1.svg" width="100%" alt="TAGriculture (Kotlin): RFID livestock tracking app. 2nd place, PCCI 2025." /></a>
+<a href="https://github.com/hyowonbernabe/ShadowPrompt"><img src="assets/cards/p5-v1.svg" width="100%" alt="ShadowPrompt (Rust): Hotkey-driven AI exam assistant for Windows. One executable, no taskbar entry." /></a>
+<a href="https://github.com/hyowonbernabe/Kuroko"><img src="assets/cards/p6-v1.svg" width="100%" alt="Kuroko (C#): AI assistant invisible to screen share, with local Whisper and SQLite vector RAG." /></a>
+<a href="https://i-tril.vercel.app/"><img src="assets/cards/p7-v1.svg" width="100%" alt="i-Tril (Next.js): Lab reservation system with QR check-in for Saint Louis University." /></a>
+<a href="https://hyowonbernabe.me"><img src="assets/cards/arsenal-v1.svg" width="100%" alt="Arsenal. AI/ML: RAG, fine-tuning (Unsloth, LoRA), Whisper, Hugging Face. Languages: Python, TypeScript, Rust, Kotlin, C#, Java, C++. Frameworks: React, Next.js, Tailwind, Three.js, WPF. Backend: Node.js, PostgreSQL, Prisma, Firebase, Docker. Credentials: BS CS Saint Louis University, Harvard CS50 AI, Databricks, Hugging Face." /></a>
+<a href="mailto:contact@hyowonbernabe.me"><img src="assets/cards/contact-v1.svg" width="100%" alt="Let's build. contact@hyowonbernabe.me" /></a>
+<a href="https://hyowonbernabe.me"><img src="assets/cards/website-v1.svg" width="49.5%" alt="Website" /></a><a href="https://linkedin.com/in/hyowon-bernabe"><img src="assets/cards/linkedin-v1.svg" width="49.5%" alt="LinkedIn" align="right" /></a>
