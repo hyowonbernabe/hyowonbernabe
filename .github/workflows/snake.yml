@@ -19,6 +19,9 @@ jobs:
             dist/grid-dark.svg?color_snake=#ff0f0f&color_dots=#161b22,#4a0a0a,#8a0c0c,#c70e0e,#ff0f0f
             dist/grid-light.svg?color_snake=#ff0f0f&color_dots=#ebedf0,#ffb3b3,#ff6b6b,#ff2e2e,#c70000
 
+      # drop the "eaten" progress bar under the grid and trim the empty space it leaves
+      - run: sed -i -E 's#<rect class="u [^>]*/>##g; s#viewBox="(-?[0-9.]+) -32 ([0-9.]+) 192"#viewBox="\1 -24 \2 152"#; s#height="192"#height="152"#' dist/*.svg
+
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
